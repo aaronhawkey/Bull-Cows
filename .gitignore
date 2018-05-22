@@ -35,4 +35,4 @@
 /.vs
 /x64
 /BullCowGame/x64
-/BullCowGame/Debug
+/BullCowGame/Debug/*
