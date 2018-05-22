@@ -18,6 +18,10 @@ void PrtintGameSummary(fBullCowGame);
 
 fBullCowGame BCGame;
 
+
+
+
+
 int main() {
 	// Welcome to game
 	PrintIntro();

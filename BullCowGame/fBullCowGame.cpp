@@ -16,7 +16,7 @@ fBullCowGame::fBullCowGame() {
 void fBullCowGame::Reset(){
 	MyCurrentTry = 1;
 	MyMaxTries = 4;
-	HIDDEN_WORD = "ant";
+	HIDDEN_WORD = "fat";
 	bGameWon = false;
 }
 
@@ -107,7 +107,7 @@ fBullCowCount fBullCowGame::SubmitValidGuess(std::string Guess){
 
 
 
-// 
+// Checks user input to see if it is an isogram
 bool fBullCowGame::IsIsogram(std::string) const
 {
 	return true;
